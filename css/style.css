@@ -1,0 +1,291 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.h1--invisible 
+{
+    visibility: hidden;
+}
+html,body
+{
+        height: 100%
+}
+header,main, footer
+{
+        margin: 0 auto;
+        width: 1040px;
+}
+caption
+{
+    text-align: left;
+    margin-bottom: 10px;
+}
+td, th
+{
+    border-top: 2px solid #670e91;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.table
+{
+    border: 5px solid #670e91;
+    border-collapse: collapse;
+}
+.price th:first-child
+{
+    width: 10%;
+}
+.price th:nth-child(2), .price th:last-child
+{
+    width: 25%;
+}
+.price tr:nth-child(even)
+{
+    background-color: #670e91;
+} 
+.price th:first-child,.price th:nth-child(2), .price th:nth-child(3), .price th:last-child
+{
+    border-bottom: 5px solid #670e91;
+    border-top:5px solid #aa82f5d7;
+    
+}
+#link
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.mark{
+    background: #670e91;
+    padding: 0 3px;
+    border: 1px dashed rgb(63, 33, 75);
+    text-align: center;
+}
+header
+{
+    text-align: center;
+}
+#zagolovok
+{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+#wrapper
+{
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    width: 100%;
+}   
+#size
+{
+    font-size: 18px;
+} 
+#mainnav ul
+{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+#mainnav li:active a
+{
+    display: inline;
+    font-weight: bold;
+}
+#mainnav a:hover
+{
+    text-decoration: underline;
+}
+#mainnav ul
+{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+#mainnav li
+{
+    display: inline;
+}
+#mainnav li.active a
+{
+    font-weight: bold;
+}
+#mainnav a
+{
+    text-decoration: none;
+}
+.active
+{
+    color: magenta
+}
+#logo
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    line-height: 100px;
+    font-size: 24px;
+    float: left;
+}
+.decoration
+{
+    text-decoration: none;
+}
+.decoration_center
+{
+    text-decoration: none;
+    text-align: center;
+}
+header.clearfix
+{
+    height: 120px;
+    width:1040px;
+    margin:0 auto;
+    border-bottom: rgb(120, 70, 124);
+    font-family:'Lora', serif;
+    font-family: Times, 'Times New Roman', Georgia, serif;
+}
+main
+{
+    padding-bottom: 100px;
+}
+footer
+{
+    margin: -100px auto 0;
+    position: relative;
+    height: 100px;
+    text-align: center;
+}
+body
+{
+    background-color: #aa82f5d7;
+    color: white;
+    font-family:'Lora', serif;
+    font-family: Times, 'Times New Roman', Georgia, serif;
+
+}
+.main__img--float
+{
+    margin-right: 40px;
+    width: 550px;
+    float: left;
+}
+.lol{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    text-align: justify;
+}
+.new::after
+{
+    content: "new" ;
+    font-size: 10px;
+    vertical-align: super;
+    background-color: #aa82f5d7;
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+#panorama
+{
+    width: 100%;
+    height: 150px;
+    background: url(../img/2.jpg) no-repeat center 70%;
+    background-size: cover;
+}
+.services__item 
+{
+    margin: 40px;
+    width: 240px;
+    float: left;
+}
+.services 
+{
+    padding: 35px;
+}
+.services__img 
+{
+    width: 240px;
+}
+.ded
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    text-align: center;
+    height: 50px;
+}
+.new::after{
+    content: "new";
+    font-size: 10px;
+    vertical-align: super;
+    background-color: rgb(138, 19, 138);
+    border-radius: 2px;
+    padding: 3px;
+    margin-left: 5px;
+}
+#colortextus
+{
+    color: #670e91;
+}
+.shadow
+{
+    background: rgb(112, 21, 124);
+    box-shadow: 0 0 10px;
+    padding: 2px;
+}
+.pink
+{
+    color: darkviolet;
+}
+.left
+{
+    text-align: left;
+}
+.pictures
+{
+    text-align: center;
+}
+h1,h2{
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.footer__block
+{
+    display: inline-block;
+    width: 335px;
+    text-align: center;
+}
+.footer__icons
+{
+    display: inline-block;
+    width: 335px;
+    text-align: right;
+}
+.footer__img
+{
+    width: 50px;
+    margin-left: 10px;
+}
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.shadow
+{
+    background: rgb(168, 168, 168);
+    box-shadow: 0 0 10px;
+    padding: 2px;
+}
+.top
+{
+    margin-top: 20px;
+}
